@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="page-container">
+  <view class="navigation">
+    <view class="content">
+      <text>早上好！张三先生</text>
+      <view class="remind">
+        <view class="num">77</view>
+        <image src="/static/remind.png" mode="aspectFit" />
+      </view>
+    </view>
+  </view>
+  <carousel style="width: 100%;" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" circular="{{true}}" vertical="{{false}}" bgColor="#95be3a" images="{{imageUrls}}" bindchange="carouselChange">
+  </carousel>
+  <options></options>
+  <menus></menus>
+  <view class="footer">
+    <tabbar></tabbar>
+  </view>
+</view>

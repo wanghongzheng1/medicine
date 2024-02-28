@@ -1,0 +1,17 @@
+<!--components/carousel/carousel.wxml-->
+<swiper
+  class="my-swiper"
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="{{circular}}"
+  vertical="{{vertical}}"
+  indicator-active-color="{{bgColor}}"
+  bindchange="swiperChange">
+  <block wx:for="{{images}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" mode="aspectFit" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>

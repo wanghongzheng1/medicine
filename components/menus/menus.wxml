@@ -1,0 +1,202 @@
+<!--components/menus/menus.wxml-->
+
+<view>
+  <view class="content">
+    <view class="table-row">
+      <view class="item">
+        <view class="image-wrap">
+          <view class="image bottom-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image bottom-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+        </view>
+        <text>功能A</text>
+      </view>
+      <view class="item" bindtap="open">
+        <view class="image-wrap">
+          <view class="image bottom-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image bottom-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+        </view>
+        <text>功能B</text>
+      </view>
+      <view class="item">
+        <view class="image-wrap">
+          <view class="image bottom-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image bottom-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+        </view>
+        <text>功能C</text>
+      </view>
+      <view class="item">
+        <view class="image-wrap">
+          <view class="image bottom-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image bottom-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-right">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+          <view class="image top-left">
+            <image src="/static/fenxi.png" mode="" />
+          </view>
+        </view>
+        <text>功能D</text>
+      </view>
+    </view>
+    <view class="table-row">
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能E</text>
+      </view>
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能F</text>
+      </view>
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能G</text>
+      </view>
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能H</text>
+      </view>
+    </view>
+    <view class="table-row">
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能I</text>
+      </view>
+      <view class="item">
+        <view class="image-big">
+          <image src="/static/fenxi.png" mode="" />
+        </view>
+        <text>功能J</text>
+      </view>
+      <view class="item">
+      </view>
+      <view class="item">
+      </view>
+    </view>
+
+  </view>
+  <view wx:if="{{popShow}}" class="page-gray" bindtap="close">
+    <view class="pop">
+      <view class="pop-top">
+      <text>功能B</text>
+      </view>
+      <view class="pop-content">
+        <view class="table-row">
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能E</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能F</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能G</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能H</text>
+          </view>
+        </view>
+        <view class="table-row">
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能E</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能F</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能G</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能H</text>
+          </view>
+        </view>
+        <view class="table-row">
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能E</text>
+          </view>
+          <view class="pop-item">
+            <view class="image-big">
+              <image src="/static/fenxi.png" mode="" />
+            </view>
+            <text>功能F</text>
+          </view>
+          <view class="pop-item">
+
+          </view>
+          <view class="pop-item">
+
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

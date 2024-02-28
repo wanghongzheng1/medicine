@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "carousel": "/components/carousel/carousel",
+    "tabbar": "/components/tabbar/tabbar",
+    "options": "/components/options/options",
+    "menus": "/components/menus/menus"
+  }
+}

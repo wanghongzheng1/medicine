@@ -1,0 +1,63 @@
+/* components/tabbar/tabbar.wxss */
+.tabbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.tab-item{
+  position: relative;
+   width: 100rpx;
+   height: 140rpx;
+   display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    color: #333;
+  align-items: center;
+}
+.tab-item-radius{
+  width: 160rpx;
+  
+}
+.active{
+  color: #95be3a;
+}
+.tab-item image{
+  width: 70rpx;
+  height: 70rpx;
+
+}
+
+.image-wrap{
+  position: absolute;
+  background: #95be3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10rpx;
+  left: 10rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 140rpx;
+}
+.image-wrap image{
+  width: 100rpx;
+  height: 100rpx;
+  transform: rotate(45deg);
+}
+.image-big-wrap{
+  position: absolute;
+  width: 160rpx;
+  height: 160rpx;
+  left: 0;
+  top: -80rpx;
+  background: #fff;
+  border-radius: 160rpx;
+  border: 2px solid #f1f1f1; /* 设置透明边框 */
+  border-bottom-color: transparent; /* 设置左半边边框颜色 */
+  border-left-color: transparent;
+  transform: rotate(-45deg);
+}
+
+

@@ -1,0 +1,111 @@
+/* components/menus/menus.wxss */
+.content{
+  display: table;
+  width: 100%;
+  border-collapse: collapse; /* 边框合并 */
+  margin-top: 20rpx;
+}
+.page-gray{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #ccc;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.pop{
+  margin: 0 auto;
+  width: 650rpx;
+  height: 800rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-top: 400rpx;
+
+}
+.pop-content{
+  display: table;
+  width: 100%;
+  border-collapse: collapse; /* 边框合并 */
+  margin-top: 20rpx;
+}
+.table-row{
+  display: table-row;
+}
+.pop-top{
+  height: 70rpx;
+  background: #282a3a;
+  color: #95be3a;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 34rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.pop-item{
+  display: table-cell;
+  width: 25%; /* 每个单元格宽度为四分之一 */
+  height: 200rpx;
+  box-sizing: border-box;
+  color: #777;
+  padding: 10px;
+  text-align: center;
+}
+.item{
+  display: table-cell;
+  width: 25%; /* 每个单元格宽度为四分之一 */
+  height: 200rpx;
+  background: #fff;
+  border: 1px solid #f5f5f5; /* 边框样式 */
+  padding: 10px; /* 内边距 */
+  box-sizing: border-box; /* 让边框和内边距计算在宽度内 */
+  color: #777;
+  text-align: center;
+}
+.item .image-wrap{
+  margin: 0 auto;
+  width: 130rpx;
+  height: 130rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image-big{
+  margin: 0 auto;
+  width: 100%rpx;
+  height: 130rpx;
+  background: hsl(79, 53%, 49%);
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-big image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.image{
+  width: 62rpx;
+  height: 62rpx;
+  background: #95be3a;
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.bottom-right{
+  border-bottom-right-radius: 0;
+}
+.bottom-left{
+  border-bottom-left-radius: 0;
+}
+.top-right{
+  border-top-right-radius: 0;
+}
+.top-left{
+  border-top-left-radius: 0;
+}

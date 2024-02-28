@@ -1,0 +1,31 @@
+<!--components/tabbar/tabbar.wxml-->
+<view class="tabbar">
+  <view class="tab-item active">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>工作</text>
+  </view>
+  <view class="tab-item">
+    <image src="/static/huatong.png" mode="" />
+    <text>助手</text>
+  </view>
+  <view class="tab-item tab-item-radius">
+    <view class="border-radius">
+      <view class="image-big-wrap">
+        <view class="image-wrap">
+          <image src="/static/jia-fff.png" mode="" />
+        </view>
+      </view>
+
+
+    </view>
+    <text>常用</text>
+  </view>
+  <view class="tab-item">
+    <image src="/static/fenxi.png" mode="" />
+    <text>分析</text>
+  </view>
+  <view class="tab-item">
+    <image src="/static/wo.png" mode="" />
+    <text>我</text>
+  </view>
+</view>

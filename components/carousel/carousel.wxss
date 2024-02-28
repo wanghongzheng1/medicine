@@ -1,0 +1,8 @@
+/* components/carousel/carousel.wxss */
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.my-swiper .swiper-indicator-dot {
+  background-color: transparent !important; /* 圆点的颜色 */
+}

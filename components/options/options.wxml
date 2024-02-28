@@ -1,0 +1,24 @@
+<!--components/options/options.wxml-->
+<view class="content">
+  <view class="item">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>功能1</text>
+  </view>
+  <view class="item">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>功能2</text>
+  </view>
+  <view class="item">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>功能3</text>
+  </view>
+  <view class="item">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>功能4</text>
+  </view>
+  <view class="item">
+    <image src="/static/renwu-green.png" mode="" />
+    <text>功能5</text>
+  </view>
+
+</view>
